@@ -1,18 +1,18 @@
-Bibliothèque de Connexion LCD I2C pour STM32
-Bienvenue dans la bibliothèque dédiée à la connexion simple et efficace de l'écran LCD au microcontrôleur STM32 en utilisant le protocole I2C. Cette bibliothèque, développée en langage C embarqué, vise à simplifier le processus de développement pour les étudiants en stages (PFE, PFA, etc.) et à offrir une ressource précieuse aux développeurs spécialisés dans les systèmes embarqués.
+I2C LCD Connection Library for STM32
+Welcome to the library dedicated to the simple and efficient connection of the LCD screen to the STM32 microcontroller using the I2C protocol. This library, developed in embedded C language, aims to simplify the development process for students in internships (PFE, PFA, etc.) and to offer a valuable resource to developers specialized in embedded systems.
 
-Fonctionnalités principales
-Prise en charge facile de la connexion LCD via le protocole I2C sur les microcontrôleurs STM32.
-Développée avec le langage C embarqué pour une intégration simple dans vos projets.
-Un outil essentiel pour les étudiants en stages et les développeurs travaillant sur des systèmes embarqués.
-N'hésitez pas à explorer le code source et à contribuer au développement de cette bibliothèque.
+Main features
+Easy support for LCD connection via the I2C protocol on STM32 microcontrollers.
+Developed with embedded C language for easy integration into your projects.
+An essential tool for students in internships and developers working on embedded systems.
+Feel free to explore the source code and contribute to the development of this library.
 
-Comment utiliser 
-Pour intégrer cette bibliothèque dans votre projet STM32, suivez les instructions ci-dessous.
+How to use
+To integrate this library into your STM32 project, follow the instructions below.
 
-Clonez ce référentiel dans votre projet :
+Clone this repository into your project:
 git clone https://github.com/Ala-Hassine/LCD_I2C_LIBRARY.git
 
-Suivez le guide d'intégration disponible dans le dossier docs pour une utilisation optimale.
+Follow the integration guide available in the docs folder for optimal use.
 
-Nous sommes ravis de partager cette ressource avec la communauté des développeurs. N'hésitez pas à ouvrir des problèmes ou à soumettre des demandes de fonctionnalités. Bon codage!
+We are happy to share this resource with the developer community. Feel free to open issues or submit feature requests. Happy coding!
