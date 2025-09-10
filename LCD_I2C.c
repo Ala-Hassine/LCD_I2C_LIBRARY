@@ -90,12 +90,7 @@ void LCD_SEND_DATA(char data)
 
 void LCD_CLEAR(void)
 {
-  // Set the cursor to the beginning of the first row
-  LCD_SEND_CMD(LCD_CURSOR_ROW_FIRST);
-
-  // Send space (' ') characters to clear the display
-  for (char i = 0; i < LCD_CLEAR_ROW_LENGTH; i++)
-    LCD_SEND_DATA(' ');
+   LCD_SEND_CMD(LCD_INIT_CMD_CLEAR_DISPLAY);
 }
 
 
@@ -210,3 +205,4 @@ void LCD_SCROLL_RIGHT(void)
 {
   LCD_SEND_CMD(LCD_MOVE_RIGHT);
 }
+
